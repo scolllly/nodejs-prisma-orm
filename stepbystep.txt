@@ -1,0 +1,8 @@
+npm init
+npm install prisma typescript ts-node @types/node --save-dev
+npx tsc --init
+npx prisma init
+npx prisma migrate dev --name init
+npm install @prisma/client
+npm i express 
+npm i @types/express concurrently -D
